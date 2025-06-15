@@ -12,7 +12,7 @@ export default function Achievements() {
     {
       title: "Technitude Sydney Global Hackathon Winner",
       description:
-        "Developed an innovative GenAI based Hospital and Restaurant Monitoring System.",
+        "Developed an innovative GenAI based Hospital and Restaurant Monitoring System using next.js and tailwind css.",
       image: "/technitude.jpg", // Replace with your actual image
       year: "2025",
     },

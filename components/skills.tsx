@@ -16,11 +16,32 @@ export default function Skills() {
 
   const skillsData = [
     {
-      name: "Python",
+      name: "HTML, CSS & JavaScript",
+      level: 100,
+      category: "web development",
+      icon: <Code className="h-8 w-8 text-primary" />,
+      description: "Building responsive and interactive web interfaces",
+    },
+    {
+      name: "TypeScript",
+      level: 85,
+      category: "web development",
+      icon: <Code className="h-8 w-8 text-primary" />,
+      description: "Strong typing and scalable JavaScript applications",
+    },
+    {
+      name: "Next.js",
+      level: 95,
+      category: "web development",
+      icon: <Brain className="h-8 w-8 text-primary" />,
+      description: "Clean and efficient full-stack React web applications",
+    },
+    {
+      name: "Python • C++ • C",
       level: 90,
       category: "programming",
       icon: <Code className="h-8 w-8 text-primary" />,
-      description: "Data analysis, machine learning, and automation",
+      description: "Data analysis, machine learning, DSA",
     },
     {
       name: "SQL",
@@ -37,12 +58,14 @@ export default function Skills() {
       description: "Interactive dashboards and business intelligence",
     },
     {
-      name: "Excel",
+      name: "n8n • Langflow • Datastax • LangChain",
       level: 95,
-      category: "analysis",
+      category: "ai",
       icon: <FileSpreadsheet className="h-8 w-8 text-primary" />,
-      description: "Advanced formulas, pivot tables, and data modeling",
+      description:
+        "AI workflow orchestration and agent-based model integration",
     },
+
     {
       name: "Machine Learning",
       level: 75,
@@ -51,11 +74,12 @@ export default function Skills() {
       description: "Predictive modeling, classification, and regression",
     },
     {
-      name: "Product Management",
-      level: 80,
-      category: "ai",
-      icon: <Brain className="h-8 w-8 text-primary" />,
-      description: "Quality Assurance,Product Management and Product Analysis",
+      name: "Jira • Firebase • Jupyter Notebook",
+      level: 90,
+      category: "tools",
+      icon: <FileSpreadsheet className="h-8 w-8 text-primary" />,
+      description:
+        "Project tracking with Jira, backend integration with Firebase, and data exploration using Jupyter Notebook",
     },
   ];
 
@@ -85,7 +109,7 @@ export default function Skills() {
             <TabsTrigger value="programming">Programming</TabsTrigger>
             <TabsTrigger value="database">Database</TabsTrigger>
             <TabsTrigger value="visualization">Visualization</TabsTrigger>
-            <TabsTrigger value="analysis">Analysis</TabsTrigger>
+            <TabsTrigger value="web development">web development</TabsTrigger>
             <TabsTrigger value="ai">AI/ML</TabsTrigger>
           </TabsList>
         </div>

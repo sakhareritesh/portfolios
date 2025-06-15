@@ -30,13 +30,16 @@ export default function About() {
         <div>
           <h3 className="text-2xl font-bold mb-4">Ritesh Sakhare</h3>
           <h4 className="text-xl text-primary mb-4">
-            Data Analyst & Data Science Engineer
+            Software Developer • Data Analyst • AI Agent Developer
           </h4>
+
           <p className="mb-6">
-            I'm a passionate data professional with expertise in data analysis,
-            visualization, and machine learning. With a strong foundation in
-            Python, SQL, Power BI, and Excel, I transform complex data into
-            actionable insights that drive business decisions.
+            I'm a passionate software developer and data professional with
+            expertise in full-stack development, data analysis, visualization,
+            and machine learning. Proficient in next.js, react, html, css,
+            javascript, API, Python, SQL, Power BI, Excel, and modern web
+            technologies, I build intelligent solutions that turn complex data
+            into impactful applications and business insights
           </p>
           <p className="mb-6">
             As a 2x hackathon winner, I thrive in competitive environments where
