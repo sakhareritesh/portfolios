@@ -112,7 +112,7 @@ export default function Skills() {
             <TabsTrigger value="web development">web development</TabsTrigger>
             <TabsTrigger value="ai">AI/ML</TabsTrigger>
           </TabsList>
-        </div>
+        </div>  
 
         <TabsContent value={activeTab} className="mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -145,3 +145,4 @@ export default function Skills() {
     </section>
   );
 }
+

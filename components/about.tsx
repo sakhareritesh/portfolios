@@ -18,10 +18,10 @@ export default function About() {
           <div className="relative h-full w-full">
             {/* Replace the placeholder with your actual image */}
             <Image
-              src="/abb1.jpg"
+              src="/profile.jpg"
               alt="Ritesh Sakhare"
               fill
-              className="object-cover rounded-lg"
+              className="relative h-80 md:h-96 rounded-lg overflow-hidden animate-float hover:animate-none transition-all duration-50 cursor-pointer"
               priority
             />
           </div>

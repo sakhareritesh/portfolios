@@ -20,10 +20,10 @@ export default function Achievements() {
       title: "ABB India Young Talent Winner",
       description:
         "Worked on ABB Database and 5 projects which made me win the ABB India Young Talent Competition..",
-      image: "/abb.jpg", // Replace with your actual image
+      image: "/abb.jpg", 
       year: "2025",
     },
-    // Add more achievements as needed
+    
   ];
 
   const nextSlide = () => {

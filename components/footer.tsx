@@ -73,7 +73,7 @@ export default function Footer() {
                   href="#contact"
                   className="hover:text-primary transition-colors"
                 >
-                  Contact
+                  Education
                 </Link>
               </li>
             </ul>
