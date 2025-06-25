@@ -29,7 +29,7 @@ export default function Education() {
               <p className="mb-2">
                 KK Wagh Institute of Engineering Education and Research,Nashik
               </p>
-              <p className="mb-2">2021 - Present</p>
+              <p className="mb-2">Final Year Student</p>
               <ul className="list-disc pl-5 mb-4">
                 <li>Every year Top 10 in branch academics</li>
                 <li>2+ Hackathon winner</li>
